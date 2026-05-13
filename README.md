@@ -53,6 +53,7 @@ jquants-demo/
 ├── .env.sample
 ├── .gitignore
 ├── README.md
+├── img/
 ├── requirements.txt
 ├── first_sample.py
 ├── comparison_sample.py
@@ -94,6 +95,19 @@ python comparison_sample.py
 - 期間騰落率などを標準出力に表示
 - `results/jquants_comparison.png` を保存
 - 比較チャートを表示
+
+## 成果物の例
+
+`img/` には README 表示用のサンプル画像を置いています。  
+実行時に生成される最新画像は `results/` に出力されます。
+
+### `first_sample.py` の出力例
+
+![first_sample output](img/close_chart_example.png)
+
+### `comparison_sample.py` の出力例
+
+![comparison_sample output](img/jquants_comparison_example.png)
 
 ## 注意事項
 
